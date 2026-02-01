@@ -4,6 +4,7 @@ import Projects from "@/components/landing/Projects"
 import Research from "@/components/landing/Research"
 import Team from "@/components/landing/Team"
 import WorkedWith from "@/components/landing/WorkedWith"
+import Goal from "@/components/landing/Goal"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Team />
       <Projects />
       {/* <WorkedWith /> */}
+      <Goal />
       <News />
     </div>
   )
