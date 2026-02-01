@@ -6,10 +6,10 @@ import ProjectPreview from "./ProjectPreview"
 
 export default function Projects() {
   return (
-    <div className="min-h-screen">
+    <div className="pt-32 min-h-screen">
       {/* <ProjectCarousel projects={projects} /> */}
-      <ProjectPreview />
-      <Geography />
+      {/* <ProjectPreview /> */}
+      {/* <Geography /> */}
       <Demos />
     </div>
   )
