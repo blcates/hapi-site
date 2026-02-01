@@ -28,7 +28,7 @@ export default function Navbar() {
   }, [])
 
   return (
-    <div className="fixed w-full z-50">
+    <div className="fixed top-0 left-0 right-0 w-full z-[100]">
       <nav className="flex justify-center items-center p-4 bg-primary-800 h-16">
         {/* Desktop Links */}
         <div className="hidden md:flex items-center relative z-10">
