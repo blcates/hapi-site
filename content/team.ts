@@ -89,6 +89,14 @@ export const teamMembers: TeamMember[] = [
 
   },
   {
+    name: "Kazim Abrar Mahi",
+    title: "Ms",
+    focus: "RL, HRI & ToM",
+    image: "/team/mahi.jpg",
+    email: "kazimabrar.mahi@colostate.edu",
+    linkedin: { text: "Kazim Abrar Mahi", url: "https://www.linkedin.com/in/kazim-abrar-mahi-959298135/"},
+  },
+  {
     name: "Shaky Jr.",
     title: "Resident Robot",
     focus: "",
