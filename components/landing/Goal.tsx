@@ -26,6 +26,18 @@ export default function Goal() {
 
         <div className="hidden md:flex flex-1 w-1/2 flex items-center justify-center">
           {/*  <Image src="/landing/lab-group.jpg" alt="Created through Gemini" width={1000} height={1000} className="rounded" /> */}
+          <figure className="max-w-4xl mx-auto">
+            <Image 
+              src="/landing/lab-group.jpg" 
+              alt="People working alongside AI tools in a community setting" 
+              width={1000} 
+              height={1000} 
+              className="rounded-lg shadow-md" 
+            />
+            <figcaption className="mt-3 text-center text-sm text-gray-600 italic">
+              Visual concept co-created by human vision and AI augmentation.
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
