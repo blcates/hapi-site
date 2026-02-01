@@ -39,17 +39,17 @@ export default function Navbar() {
             <Link href="/news" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               NEWS
             </Link>
-             <Link href="/contact" className="text-white hover:text-gray-300 transition duration-200 font-bold"> CONTACT </Link> 
+            <Link href="/contact" className="text-white hover:text-gray-300 transition duration-200 font-bold">
+              CONTACT
+            </Link>
           </div>
           <div className="flex space-x-6 items-center">
             <Link href="/publications" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               PUBLICATIONS
             </Link>
-             <Link href="/research" className="text-white hover:text-gray-300 transition duration-200 font-bold">
-              RESEARCH             </Link> 
-            {/* <Link href="/contact" className="text-white hover:text-gray-300 transition duration-200 font-bold">
-              CONTACT
-            </Link> */}
+            <Link href="/research" className="text-white hover:text-gray-300 transition duration-200 font-bold">
+              RESEARCH
+            </Link>
           </div>
         </div>
 
@@ -80,8 +80,8 @@ export default function Navbar() {
               <Link href="/team" className="block px-6 py-3 hover:bg-primary-500 transition duration-200 text-lg font-bold">
                 TEAM
               </Link>
-              {/* <Link href="/research" className="block px-6 py-3 hover:bg-primary-500 transition duration-200 text-lg font-bold">
-                RESEARCH */}
+              <Link href="/research" className="block px-6 py-3 hover:bg-primary-500 transition duration-200 text-lg font-bold">
+                RESEARCH
               </Link>
               <Link
                 href="/publications"

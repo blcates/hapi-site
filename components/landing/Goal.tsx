@@ -28,7 +28,7 @@ export default function Goal() {
           {/*  <Image src="/landing/lab-group.jpg" alt="Created through Gemini" width={1000} height={1000} className="rounded" /> */}
           <figure className="max-w-4xl mx-auto">
             <Image 
-              src="/landing/lab-group.jpg" 
+              src="/landing/flourish.png" 
               alt="People working alongside AI tools in a community setting" 
               width={1000} 
               height={1000} 
