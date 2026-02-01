@@ -39,19 +39,16 @@ export default function Navbar() {
             <Link href="/news" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               NEWS
             </Link>
-            {/* <Link href="/contact" className="text-white hover:text-gray-300 transition duration-200 font-bold">
-              CONTACT
-            </Link> */}
+            {/* <Link href="/contact" className="text-white hover:text-gray-300 transition duration-200 font-bold"> CONTACT </Link> */}
           </div>
           <div className="flex space-x-6 items-center">
             <Link href="/publications" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               PUBLICATIONS
             </Link>
             {/* <Link href="/research" className="text-white hover:text-gray-300 transition duration-200 font-bold">
-              RESEARCH */}
+              RESEARCH             </Link> */}
             <Link href="/contact" className="text-white hover:text-gray-300 transition duration-200 font-bold">
               CONTACT
-            </Link>
             </Link>
           </div>
         </div>
