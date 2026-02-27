@@ -12,16 +12,24 @@ export interface Publication {
 
 // JSON for publications section of the Research page
 
-export const publications: Publication[] = [ {
-      title: "HuTCH: Human Teachable Concept Highlighter for Post-hoc Visual Explanations",
+export const publications: Publication[] = [ 
+      {
+        title: "Mental Model-based Generation of Lies for Insider Threat Modeling",
+        url: "https://drive.google.com/file/d/1-VZ1m2Iw1f7qqiDrdHpXjFdrNqK4pSlj/view",
+        tags: ["Other"],
+        authors: "Brittany Cates and Sarath Sreedharan",
+        year: 2026,
+        additional: "AAAI 2026",
+      },
+      {
+        title: "HuTCH: Human Teachable Concept Highlighter for Post-hoc Visual Explanations",
         url: "https://sarathsreedharan.com/files/papers/conference/Mirhaji_AIED_2025_HuTCH_Erfan_shortened.pdf",
         tags: ["XAI", "ITS"],
         authors: "Erfan Mirhaji, Nikhil Krishnaswamy, Jill Zarestky, Lisa Mason, Sarath Sreedharan, and Nathaniel Blanchard",
         year: 2025,
         additional: "International Conference on Artificial Intelligence in Education (AIED)",
       },
-  
-        {
+      {
       title: "A Survey on Model Repair in AI Planning",
       url: "https://sarathsreedharan.com/files/papers/conference/ijcai_survey_model_repair.pdf",
       tags: ["Other"],
